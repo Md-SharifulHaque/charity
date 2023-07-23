@@ -1,0 +1,107 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Container */
+
+.container-flexible {
+    display: flex;
+}
+
+.container-center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+.container1 {
+    text-align: center;
+    background-image: url(Images/Cover.jpg);
+    background-size: cover;
+    height: 675px;
+    width: 100%;
+    padding-top: 250px;
+}
+
+.container2 {
+    text-align: center;
+}
+
+.background-container2-div {
+    background-color: #00000009;
+    text-align: center;
+    height: 170px;
+    width: 250px;
+    margin: 10px;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+
+#background-container2-div {
+    color: #FF5959;
+    border-color: #FF5959;
+    background-color: #FF595909;
+}
+
+
+
+
+footer {
+    padding: 25px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+footer p {
+    color: gray;
+}
+
+/* Button */
+
+.button-donate {
+    background-color: #FF5959;
+    text-decoration: none;
+    padding: 30px 60px;
+    border-radius: 20px;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/* Fonts */
+h1 {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 20px;
+}
+
+.container1 h1 {
+    color: white;
+    margin: 0;
+}
+
+.container1 p {
+    color: white;
+    margin: 20px 0 60px;
+}
+
+.container2 h1 {
+    margin: 50px 0 0;
+}
+
+.container2 p {
+    color: gray;
+    margin: 20px 0 60px;
+}
+
+/* Colors */
